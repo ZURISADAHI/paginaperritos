@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <!--Titulo de la página-->
+        <title>
+            Página de Perritos
+        </title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <header>
+        <h1>Página de Perritos</h1>
+    </header>
+
+    <body>
+        <h3>Imágenes de Perritos</h3>
+        <!--Agregar imagen desde internet-->
+        <img src="https://razapitbull.com/wp-content/uploads/2015/04/1549557_646915655362413_12965394_n.png">
+        <!--Agregar imagen desde ordenador-->
+        <img src="imagenes/pitbull.jpg">
+
+        <h3>Lista de Perritos</h3>
+        <p>Cosas que los Perritos  <strong>aman</strong></p>
+
+        <!--Listas ordenadas-->
+        <ol><!--Ordered list-->
+            <li>Recibir atención</li>
+            <li>Jugar</li>
+            <li>Dormir</li>
+            <li>Comer</li>
+        </ol>
+
+        <!--Listas desordenadas-->
+        <p> Cosas que los gatos <i>odian</i></p>
+
+       <ul><!--Unordered List-->
+        <li>Ruidos fuertes</li>
+        <li>Bañarse</li>
+       </ul>
+
+    <!--Enlaces externos-->
+    <p>Si quieres ver videos de Perritos <a href="https://www.youtube.com/watch?v=H4JE6XDR6UE" target="_blank">da click aquí</a></p>
+
+    <!--Formularios-->
+    <!--Formulario con botons de radio-->
+    <p>¿Tu perrito es cachorro o adulto?</p>
+    <label>
+        <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked> Cachorro
+    </label>
+    <br>
+    <label>
+        <input id="adulto" type="radio" value="adulto" name="cachorro-adulto"> Adulto
+    </label>
+    
+    <!--Formulario con casillas de verificación-->
+    <p>¿Qué tipo de perro es el tuyo</p>
+    <label>
+        <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked>Cariñoso
+    </label>
+    <br>
+    <label>
+        <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+    </label>
+    <br>
+    <label>
+        <input id="energico" type="checkbox" value="energico" name="personalidad" >Enérgetico
+    </label>
+    </body>
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+
+    </footer>
+</html>

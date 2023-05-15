@@ -1,0 +1,9 @@
+/*Asi se pone un comentario en css*/
+body{
+    background-color:#ffdbff;
+    color: #945799;
+    font-family: 'Quicksand', sans-serif;
+}
+h1, p{
+    color:#1e2b52;
+}
